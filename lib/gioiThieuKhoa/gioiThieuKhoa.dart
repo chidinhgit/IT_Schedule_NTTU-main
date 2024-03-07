@@ -46,7 +46,7 @@ class _MyPageViewContentState extends State<MyPageViewContent> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Giới Thiệu Khoa'),
+        title: Text('Giới Thịu Khoa'),
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
