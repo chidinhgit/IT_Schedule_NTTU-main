@@ -5,6 +5,7 @@ import 'package:notification_nttu/thongtinphanhoi/nhanthongtin.dart';
 import 'package:notification_nttu/tinhnang/ThongTinCaNhan.dart';
 import 'package:notification_nttu/tinhnang/TongQuanTKB.dart';
 import 'package:notification_nttu/gioiThieuKhoa/gioiThieuKhoa.dart';
+import 'package:notification_nttu/tinhnang/dinhhuongnghenghiep.dart';
 
 void main() {
   runApp(MyApp());
@@ -181,10 +182,10 @@ Expanded expanded(String imagePath, String text, BuildContext context) {
           //   MaterialPageRoute(builder: (context) => tracNghiem()),
           // );
         } else if (text == 'Định hướng nghề nghiệp') {
-          // Navigator.push(
-          //   context,
-          //   MaterialPageRoute(builder: (context) => dinhHuong()),
-          // );
+          Navigator.push(
+             context,
+             MaterialPageRoute(builder: (context) => DinhHuongNgheNghiep()),
+          );
         } else if (text == 'Xem thông tin phản hồi') {
           Navigator.push(
             context,
