@@ -24,7 +24,7 @@ class DinhHuongNgheNghiep extends StatelessWidget {
             Image.asset(
               'assets/images/logoAPBAR.png',
               height: 180,
-              width: 180,
+              width: 170,
             ),
           ],
         ),
@@ -36,7 +36,7 @@ class DinhHuongNgheNghiep extends StatelessWidget {
         ],
       ),
       body: ListView(
-        padding: EdgeInsets.all(16),
+        padding: EdgeInsets.all(15),
         children: [
           ListTile(
             title: Text(
