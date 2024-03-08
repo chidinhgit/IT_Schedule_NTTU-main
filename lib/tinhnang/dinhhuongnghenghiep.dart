@@ -36,7 +36,7 @@ class DinhHuongNgheNghiep extends StatelessWidget {
         ],
       ),
       body: ListView(
-        padding: EdgeInsets.all(16),
+        padding: EdgeInsets.all(15),
         children: [
           ListTile(
             title: Text(
