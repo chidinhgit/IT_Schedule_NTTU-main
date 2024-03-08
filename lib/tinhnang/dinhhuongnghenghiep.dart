@@ -24,7 +24,7 @@ class DinhHuongNgheNghiep extends StatelessWidget {
             Image.asset(
               'assets/images/logoAPBAR.png',
               height: 180,
-              width: 180,
+              width: 170,
             ),
           ],
         ),
